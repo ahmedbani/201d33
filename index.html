@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class01</title>
+    <style>
+        h1{
+            text-align: center;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>class 1 lab </h1>
+        <nav>
+            <ul>
+                <li> 
+                    <a href="https://www.google.com/?client=safari">Home</a>
+                </li>
+                <li>
+                     <a href="https://www.google.com/?client=safari">About us</a>
+                </li>
+                <li>
+                     <a href="https://www.google.com/?client=safari">Contact us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p style="color:red; background-color: blue;"> 
+            What's your name?
+        </p>
+        <p style="color:rgb(0, 140, 255); background-color: rgb(255, 102, 0);">
+            How old are you?
+        </p>
+        <p style="color:rgb(255, 0, 242); background-color: rgb(0, 255, 157);">
+            Where are you from?
+        </p>
+        <p style="color:rgb(68, 0, 255); background-color: rgb(200, 255, 0);">
+            What's your favourite movie?
+        </p>
+
+    </main>
+    <footer>
+        &copy; Ahmed Bani-Salameh
+    </footer>
+    <script>
+        let name = prompt('What\'s your name? ');
+        alert('Hi '+name);
+        console.log('this is for the name',name);
+        let age = prompt('How old are you '+name+' ?');
+        alert('Hi '+name+' you are '+age+' years old ');
+        console.log('this is for the age',age);
+        let country = prompt('Where are you from '+name+'?');
+        alert('Hi '+name+' you are '+age+' years old and you are from '+country);
+        console.log('where is he/she from',country);
+        let favMovie = prompt('What\'s your favourite movie '+name);
+        alert('Hi '+name+' you are '+age+' years old and you are from '+country+' and your favourite movie is '+favMovie);
+        console.log('this is for the favourite movie', favMovie);
+        confirm('Is all the information correct '+name+'?');
+    </script>
+</body>
+</html>
